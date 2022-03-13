@@ -5,8 +5,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 @Log4j
-public class SimpleTestClassOne {
-
+public class SimpleTestClassTwo {
 
     @Parameters({"num"})
     @Test

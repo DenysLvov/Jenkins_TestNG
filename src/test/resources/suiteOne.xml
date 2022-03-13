@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" thread-count="1" parallel="classes">
+    <parameter name="num" value="2"/>
+    <test name="Simple test to check parametrisation">
+        <classes>
+            <class name="tests.SimpleTestClassTwo"/>
+        </classes>
+    </test>
+</suite>
