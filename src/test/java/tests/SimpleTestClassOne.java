@@ -11,8 +11,9 @@ public class SimpleTestClassOne {
     @Test
     @Parameters({"metadataCode", "pipelineName"})
     public void simpleTest2(String metadataCode, String pipelineName) {
-        System.out.println("metadataCode " + metadataCode);
-        System.out.println("pipelineName " + pipelineName);
+        System.out.println(">>> metadataCode " + metadataCode);
+        System.out.println(">>> pipelineName " + pipelineName);
+        System.out.println(">>> ENV " + System.getProperty("environment"));
     }
 
 }
