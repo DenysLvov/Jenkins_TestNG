@@ -8,22 +8,11 @@ import org.testng.annotations.Test;
 public class SimpleTestClassOne {
 
 
-    @Parameters({"num"})
     @Test
-    public void simpleTest1(int num) {
-        log.info("Test " + num);
-        System.out.println("Test " + num);
+    @Parameters({"metadataCode", "pipelineName"})
+    public void simpleTest2(String metadataCode, String pipelineName) {
+        System.out.println("metadataCode " + metadataCode);
+        System.out.println("pipelineName " + pipelineName);
     }
 
-    @Test
-    @Parameters("num")
-    public void simpleTest2(int num) {
-        System.out.println("Test " + num);
-    }
-
-    @Test
-    @Parameters("num")
-    public void simpleTest3(int num) {
-        System.out.println("Test " + num);
-    }
 }
