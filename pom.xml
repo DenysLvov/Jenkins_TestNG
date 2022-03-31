@@ -72,7 +72,7 @@
                         <!--========== JENKINS SETUP ========== -->
                         <systemPropertyVariables>
                             <!--suppress UnresolvedMavenProperty -->
-                            <environment>${Denvironment}</environment>>
+                            <!--environment>${Denvironment}</environment>-->
                         </systemPropertyVariables>
                         <suiteXmlFiles>
                             <!--suppress UnresolvedMavenProperty -->
